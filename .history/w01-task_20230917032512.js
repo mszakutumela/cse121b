@@ -1,5 +1,4 @@
-// 🔍 Part 1 error
-const userName = "Moroni";
+// 🔍 Part 1 error userName = "Moroni";
 console.log(`Username: ${userName}`);
 userName = "Moronihah";
 console.log(`Username: ${userName}`);
