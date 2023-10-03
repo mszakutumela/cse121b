@@ -5,7 +5,7 @@
 /* Step 2 - Variables */
 let fullName = "Ayanda Ndlovu";
 let currentYear = "2023";
-let profilePicture = "images/20221109_183304.jpg";
+let profilePicture = "images/20221109_183304.jpg"
 
 
 
