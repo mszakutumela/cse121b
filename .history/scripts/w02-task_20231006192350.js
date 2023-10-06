@@ -13,6 +13,10 @@ const foodElement = document.getElementById('food');
 const yearElement = document.querySelector('#year');
 const imageElement = document.querySelector('Image_of_Me');
 
+
+
+
+
 /* Step 4 - Adding Content */
 
 
