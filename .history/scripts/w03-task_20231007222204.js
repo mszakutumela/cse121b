@@ -54,15 +54,14 @@ const multiplyNumbers = () => {
     let factor2 = parseInt(document.querySelector('#factor2').value);
     let result = multiply(factor1, factor2);
     document.querySelector('#product').value = result;
-    } 
-document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNumbers);  
+    } document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNumbers);  
 
-// function multiplyNumbers() {
-//     let multiplyFactor1 = Number(document.querySelector('#multiply1').value);
-//     let multiplyFactor2 = Number(document.querySelector('#multiply2').value);
-//     document.querySelector('#product').value = subtract(multiplyFactor1, multiplyFactor2);
-// }
-// document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNumbers);
+function multiplyNumbers() {
+    let multiplyFactor1 = Number(document.querySelector('#multiply1').value);
+    let multiplyFactor2 = Number(document.querySelector('#multiply2').value);
+    document.querySelector('#product').value = subtract(multiplyFactor1, multiplyFactor2);
+}
+document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNumbers);
 
 /* Open Function Use - Divide Numbers */
 

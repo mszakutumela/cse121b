@@ -46,23 +46,16 @@ document.querySelector('#subtractNumbers').addEventListener('click', subtractNum
 // 1. Using arrow functions, repeat the items in Step 2 with arrow functions named multiply 
 // and multiplyNumbers and HTML form controls with IDs of factor1, factor2, multiplyNumbers, 
 // and product.
-const multiply = (factor1, factor2) => {
+function multiply(factor1, factor2) {
+    // function body
     return factor1 * factor2;
-    };
-const multiplyNumbers = () => {
-    let factor1 = parseInt(document.querySelector('#factor1').value);
-    let factor2 = parseInt(document.querySelector('#factor2').value);
-    let result = multiply(factor1, factor2);
-    document.querySelector('#product').value = result;
-    } 
-document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNumbers);  
-
-// function multiplyNumbers() {
-//     let multiplyFactor1 = Number(document.querySelector('#multiply1').value);
-//     let multiplyFactor2 = Number(document.querySelector('#multiply2').value);
-//     document.querySelector('#product').value = subtract(multiplyFactor1, multiplyFactor2);
-// }
-// document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNumbers);
+}
+function multiplyNrs() {
+    let multiplyFactor1 = Number(document.querySelector('#multiply1').value);
+    let multiplyFactor2 = Number(document.querySelector('#multiply2').value);
+    document.querySelector('#product').value = subtract(multiplyFactor1, multiplyFactor2);
+}
+document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNumbers);
 
 /* Open Function Use - Divide Numbers */
 
