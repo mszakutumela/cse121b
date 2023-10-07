@@ -79,14 +79,9 @@ document.querySelector('#divideNumbers').addEventListener('click', divideNumbers
 const currentDate = new Date();
 // 2. Declare a variable to hold the current year.
 let currentYear;
-// 3. Using the variable declared in number 1, call the built-in getFullYear() 
-// method/function and assign it to the variable declared in 2.
-currentYear = currentDate.getFullYear();
-// 4. Assign the current year variable to an HTML form element with an ID of year.
-document.querySelector('#year').textContent = currentYear;
+3. Using the variable declared in number 1, call the built-in getFullYear() method/function and assign it to the variable declared in 2.
 
 /* ARRAY METHODS - Functional Programming */
-
 /* Output Source Array */
 
 /* Output Odds Only Array */

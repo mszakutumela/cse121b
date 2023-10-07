@@ -86,7 +86,6 @@ currentYear = currentDate.getFullYear();
 document.querySelector('#year').textContent = currentYear;
 
 /* ARRAY METHODS - Functional Programming */
-
 /* Output Source Array */
 
 /* Output Odds Only Array */

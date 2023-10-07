@@ -81,12 +81,9 @@ const currentDate = new Date();
 let currentYear;
 // 3. Using the variable declared in number 1, call the built-in getFullYear() 
 // method/function and assign it to the variable declared in 2.
-currentYear = currentDate.getFullYear();
-// 4. Assign the current year variable to an HTML form element with an ID of year.
-document.querySelector('#year').textContent = currentYear;
+currentYear = currentDate.get
 
 /* ARRAY METHODS - Functional Programming */
-
 /* Output Source Array */
 
 /* Output Odds Only Array */
