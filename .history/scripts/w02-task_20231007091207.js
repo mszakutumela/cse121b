@@ -20,8 +20,7 @@ imageElement.setAttribute('scr', profilePicture);
 imageElement.setAttribute('alt', profilePicture) = `Profile image of ${fullName}`;
 
 /* Step 5 - Array */
-let favoriteFood = ['Spinach', 'Carrots', 'Chicken', 'Couscous', 'Butternut']
-
+let favoriteFood = 
 
 
 

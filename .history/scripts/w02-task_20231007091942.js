@@ -26,4 +26,3 @@ let favoriteFood = ['Spinach', 'Carrots', 'Chicken', 'Couscous', 'Butternut']
 
 
 
-
