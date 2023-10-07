@@ -16,8 +16,10 @@ const imageElement = document.querySelector('Image_of_Me');
 /* Step 4 - Adding Content */
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
 yearElement.textContent = `${currentYear}`;
-imageElement.setAttribute('scr', profilePicture);
-imageElement.setAttribute = `Profile image of ${fullName}`;
+
+
+
+
 
 /* Step 5 - Array */
 

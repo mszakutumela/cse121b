@@ -19,6 +19,10 @@ yearElement.textContent = `${currentYear}`;
 imageElement.setAttribute('scr', profilePicture);
 imageElement.setAttribute = `Profile image of ${fullName}`;
 
+
+
+
+
 /* Step 5 - Array */
 
 
