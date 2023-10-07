@@ -25,21 +25,14 @@ function addNumbers() {
 // a function. Why❔
 document.querySelector('#addNumbers').addEventListener('click', addNumbers);
 
+
 /* Function Expression - Subtract Numbers */
 
 // 1. Using function expressions, repeat the items in Step 2 with new functions 
 // named subtract and subtractNumbers and HTML form controls with IDs of subtract1, 
 // subtract2, subtractNumbers, and difference.
-function subtract (number1, number2) {
-    // function body
-    return number1 - number2;
-}
-function subtractNumbers() {
-    let subtractNumber1 = Number(document.querySelector('#subtract1').value);
-    let subtractNumber2 = Number(document.querySelector('#subtract2').value);
-    document.querySelector('#difference').value = subtract(subtractNumber1, subtractNumber2);
-}
-document.querySelector('#subtractNumbers').addEventListener('click', subtractNumbers);
+
+
 
 /* Arrow Function - Multiply Numbers */
 

@@ -37,9 +37,8 @@ function subtract (number1, number2) {
 function subtractNumbers() {
     let subtractNumber1 = Number(document.querySelector('#subtract1').value);
     let subtractNumber2 = Number(document.querySelector('#subtract2').value);
-    document.querySelector('#difference').value = subtract(subtractNumber1, subtractNumber2);
+    document.querySelector('#subtractNumbers').value = subtract(addNumber1, addNumber2);
 }
-document.querySelector('#subtractNumbers').addEventListener('click', subtractNumbers);
 
 /* Arrow Function - Multiply Numbers */
 
