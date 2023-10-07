@@ -16,7 +16,7 @@ let image = document.getElementsByTagName('img');
 /* Step 4 - Adding Content */
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
 yearElement.textContent = `${currentYear}`;
-let imageElement = image[0].setAttribute('scr', profilePicture);
+let imageElement = image[0].setAttribute('scr', profilePicture)
 image[0].setAttribute('alt', `${profilePicture}`);
 image[0].setAttribute('title', `${profilePicture}`);
 

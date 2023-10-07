@@ -11,12 +11,12 @@ const profilePicture = "images/20221109_183304.jpg";
 const nameElement = document.getElementById('name');
 const foodElement = document.getElementById('food');
 const yearElement = document.querySelector('#year');
-let image = document.getElementsByTagName('img');
+const imageElement = document.querySelector("#home picture img");
 
 /* Step 4 - Adding Content */
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
 yearElement.textContent = `${currentYear}`;
-let imageElement = image[0].setAttribute('scr', profilePicture);
+limageElement = image[0].setAttribute('scr', profilePicture)
 image[0].setAttribute('alt', `${profilePicture}`);
 image[0].setAttribute('title', `${profilePicture}`);
 
@@ -26,10 +26,11 @@ foodElement.innerHTML = `${favoriteFoods}`;
 let anotherSingleFood = ['Green Apples'];
 favoriteFoods.push('Green Apples');
 foodElement.innerHTML += `<br>${favoriteFoods}`;
+
 favoriteFoods.pop(0);
-foodElement.innerHTML += `<br>${favoriteFoods}`;
+foodElement.innerHTML += `<br>${favoriteFoods.pop(0)}`;
 favoriteFoods.pop();
-foodElement.innerHTML += `<br>${favoriteFoods}`;
+foodElement.innerHTML += `<br>${favoriteFoods.pop()}`;
 
 
 

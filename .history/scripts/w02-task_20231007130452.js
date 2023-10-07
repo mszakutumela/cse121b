@@ -5,7 +5,7 @@
 /* Step 2 - Variables */
 let fullName = "Ayanda Ndlovu";
 let currentYear = new Date().getFullYear();
-const profilePicture = "images/20221109_183304.jpg"; 
+const profilePicture = "C:\Users\Ayanda\OneDrive\Desktop\My Education\BYU-Idaho\2nd Semester\cse121bimages/20221109_183304.jpg";
 
 /* Step 3 - Element Variables */
 const nameElement = document.getElementById('name');
@@ -16,7 +16,7 @@ let image = document.getElementsByTagName('img');
 /* Step 4 - Adding Content */
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
 yearElement.textContent = `${currentYear}`;
-let imageElement = image[0].setAttribute('scr', profilePicture);
+let imageElement = image[0].setAttribute('scr', profilePicture)
 image[0].setAttribute('alt', `${profilePicture}`);
 image[0].setAttribute('title', `${profilePicture}`);
 
@@ -26,10 +26,11 @@ foodElement.innerHTML = `${favoriteFoods}`;
 let anotherSingleFood = ['Green Apples'];
 favoriteFoods.push('Green Apples');
 foodElement.innerHTML += `<br>${favoriteFoods}`;
+
 favoriteFoods.pop(0);
-foodElement.innerHTML += `<br>${favoriteFoods}`;
+foodElement.innerHTML += `<br>${favoriteFoods.pop(0)}`;
 favoriteFoods.pop();
-foodElement.innerHTML += `<br>${favoriteFoods}`;
+foodElement.innerHTML += `<br>${favoriteFoods.pop()}`;
 
 
 
