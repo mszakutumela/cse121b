@@ -21,10 +21,9 @@ const nameElement = document.getElementById('name');
 // 2. Use the document.getElementById() method to get the HTML element with 
 // the id of food and store it in a const variable named "foodElement".
 const foodElement = document.getElementById('food');
-// 3. Use the document.querySelector() method to get the element with 
-// the id of "year" and store it in a variable named "yearElement".
+3. Use the document.querySelector() method to get the element with 
+the id of "year" and store it in a variable named "yearElement".
 const yearElement = document.querySelector('#year');
-// 4. Use any viable method to get the profile image element stored into a variable named "imageElement".
 const imageElement = document.querySelector('body > main > picture > img');
 
 /* Step 4 - Adding Content */
