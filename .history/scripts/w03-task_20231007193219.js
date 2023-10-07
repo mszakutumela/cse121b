@@ -53,9 +53,9 @@ function multiply (factor1, factor2) {
 function multiplyNumbers() {
     let multiplyFactor1 = Number(document.querySelector('#multiply1').value);
     let multiplyFactor2 = Number(document.querySelector('#multiply2').value);
-    document.querySelector('#product').value = subtract(multiplyFactor1, multiplyFactor2);
+    document.querySelector('#').value = subtract(multiplyFactor1, multiplyFactor2);
 }
-document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNumbers);
+document.querySelector('#subtractNumbers').addEventListener('click', subtractNumbers);
 
 /* Open Function Use - Divide Numbers */
 

@@ -50,12 +50,12 @@ function multiply (factor1, factor2) {
     // function body
     return factor1 * factor2;
 }
-function multiplyNumbers() {
-    let multiplyFactor1 = Number(document.querySelector('#multiply1').value);
-    let multiplyFactor2 = Number(document.querySelector('#multiply2').value);
-    document.querySelector('#product').value = subtract(multiplyFactor1, multiplyFactor2);
+function tNumbers() {
+    let subtractNumber1 = Number(document.querySelector('#subtract1').value);
+    let subtractNumber2 = Number(document.querySelector('#subtract2').value);
+    document.querySelector('#difference').value = subtract(subtractNumber1, subtractNumber2);
 }
-document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNumbers);
+document.querySelector('#subtractNumbers').addEventListener('click', subtractNumbers);
 
 /* Open Function Use - Divide Numbers */
 
