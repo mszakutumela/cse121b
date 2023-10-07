@@ -71,7 +71,7 @@ const divideNumbers = () => {
     let result = divide(dividend, divisor);
     document.querySelector('#quotient').value = result;
     } 
-document.querySelector('#divideNumbers').addEventListener('click', divideNumbers);  
+document.querySelector('#divideNumbers').addEventListener('click', multiplyNumbers);  
 
 /* Decision Structure */
 

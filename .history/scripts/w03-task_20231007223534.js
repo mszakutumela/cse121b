@@ -68,10 +68,10 @@ const divide = (dividend, divisor) => {
 const divideNumbers = () => {
     let dividend = parseInt(document.querySelector('#dividend').value);
     let divisor = parseInt(document.querySelector('#divisor').value);
-    let result = divide(dividend, divisor);
-    document.querySelector('#quotient').value = result;
+    let result = divide(dividend, factor2);
+    document.querySelector('#product').value = result;
     } 
-document.querySelector('#divideNumbers').addEventListener('click', divideNumbers);  
+document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNumbers);  
 
 /* Decision Structure */
 

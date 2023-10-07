@@ -59,19 +59,7 @@ document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNum
 
 /* Open Function Use - Divide Numbers */
 
-// 1. Using any combination of function declaration types, repeat the items in Step 2 with 
-// new functions named divide and divideNumbers and HTML form controls with IDs of dividend, 
-// divisor, divideNumbers, and quotient.
-const divide = (dividend, divisor) => {
-    return dividend / divisor;
-    };
-const divideNumbers = () => {
-    let dividend = parseInt(document.querySelector('#dividend').value);
-    let divisor = parseInt(document.querySelector('#divisor').value);
-    let result = divide(dividend, divisor);
-    document.querySelector('#quotient').value = result;
-    } 
-document.querySelector('#divideNumbers').addEventListener('click', divideNumbers);  
+
 
 /* Decision Structure */
 

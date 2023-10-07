@@ -63,15 +63,15 @@ document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNum
 // new functions named divide and divideNumbers and HTML form controls with IDs of dividend, 
 // divisor, divideNumbers, and quotient.
 const divide = (dividend, divisor) => {
-    return dividend / divisor;
+    return factor1 * factor2;
     };
-const divideNumbers = () => {
-    let dividend = parseInt(document.querySelector('#dividend').value);
-    let divisor = parseInt(document.querySelector('#divisor').value);
-    let result = divide(dividend, divisor);
-    document.querySelector('#quotient').value = result;
+const multiplyNumbers = () => {
+    let factor1 = parseInt(document.querySelector('#factor1').value);
+    let factor2 = parseInt(document.querySelector('#factor2').value);
+    let result = multiply(factor1, factor2);
+    document.querySelector('#product').value = result;
     } 
-document.querySelector('#divideNumbers').addEventListener('click', divideNumbers);  
+document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNumbers);  
 
 /* Decision Structure */
 
