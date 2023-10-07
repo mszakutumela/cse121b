@@ -91,24 +91,13 @@ document.querySelector('#year').textContent = currentYear;
 let numbersArray = [1,2,3,4,5,6,7,8,9,10,11,12,13];
 // 2. Assign the value of the array variable to the HTML element with an ID of array.
 /* Output Source Array */
-document.querySelector('#array').innerHTML = numbersArray;
-// 3. Use the filter() array method to find all of the odd numbers 
-// of the array variable and assign the result to the HTML element with an ID of odds.
+
 /* Output Odds Only Array */
-document.querySelector('#odds').innerHTML = numbersArray.filter(number => number % 2);
-// 4. Use the filter() array method to find all of the even numbers of the array variable and
-// assign the result to the HTML element with an ID of evens.
+
 /* Output Evens Only Array */
-document.querySelector('#evens').innerHTML = numbersArray.filter(number => number % 2 === 0);
-// 5. Use the reduce() array method to sum the array variable elements and assign the result to 
-// the HTML element with an ID of sumOfArray
+
 /* Output Sum of Org. Array */
-document.querySelector('#sumOfArray').innerHTML = numbersArray.reduce((sum, number) => sum + number);
-// 6. Use the map() array method to multiple each element in the array variable by 2 and assign the 
-// result to the HTML element with an ID of multiplied.
+
 /* Output Multiplied by 2 Array */
-document.querySelector('#multiplied').innerHTML = numbersArray.map(number => number * 2);
-// 7. Use the map() and reduce() array methods to sum the array elements after multiplying each element 
-// by two. Assign the result to the HTML element with an ID of sumOfMultiplied.
+
 /* Output Sum of Multiplied by 2 Array */
-document.querySelector("#sumOfMultiplied").innerHTML = numbersArray.map((number) => number * 2).reduce((sum, number) => sum + number);

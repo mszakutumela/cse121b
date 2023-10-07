@@ -111,4 +111,4 @@ document.querySelector('#multiplied').innerHTML = numbersArray.map(number => num
 // 7. Use the map() and reduce() array methods to sum the array elements after multiplying each element 
 // by two. Assign the result to the HTML element with an ID of sumOfMultiplied.
 /* Output Sum of Multiplied by 2 Array */
-document.querySelector("#sumOfMultiplied").innerHTML = numbersArray.map((number) => number * 2).reduce((sum, number) => sum + number);
+document.querySelector("#sumOfMultiplied").inner = numbers.map((number) => number * 2).reduce((sum, number) => sum + number);
