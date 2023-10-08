@@ -103,7 +103,7 @@ myProfile.hobbies.forEach(hobbies => {
 
 // 6. For each object in the placesLived property:
 // 6.1 Create an HTML <dt> element and put its place property in the <dt> element.
-// 6.2 Create an HTML <dd> element and put its length property in the <dd> element
+6.2
 myProfile.placesLived.forEach((item) => {
     let placeLived = document.getElementById('places-lived');
     let dt = document.createElement('dt');

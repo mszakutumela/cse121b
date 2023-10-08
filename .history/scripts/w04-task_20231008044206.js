@@ -93,7 +93,7 @@ myProfile.favoriteFoods.forEach(food => {
 // 5. Repeat the previous process of creating a list of items for 
 // each hobby in the hobbies property of the object and appending each 
 // item to the HTML <ul> element with an ID of hobbies.
-myProfile.hobbies.forEach(hobbies => {
+myProfile.favoriteFoods.forEach(hobbies => {
     let li = document.createElement('li');
     li.textContent = hobbies;
     document.querySelector('#hobbies').appendChild(li);
@@ -103,16 +103,15 @@ myProfile.hobbies.forEach(hobbies => {
 
 // 6. For each object in the placesLived property:
 // 6.1 Create an HTML <dt> element and put its place property in the <dt> element.
-// 6.2 Create an HTML <dd> element and put its length property in the <dd> element
-myProfile.placesLived.forEach((item) => {
-    let placeLived = document.getElementById('places-lived');
+myProfile.favoriteFoods.forEach(placesLived => {
     let dt = document.createElement('dt');
-    let dd = document.createElement('dd');
-    dt.innerHTML = item.place;
-    dd.innerHTML = item.length;
-// 7. Append the HTML <dt> and <dd> elements created above to the 
-// HTML <dl> element with an ID of places-lived.
-    placeLived.append(dt, dd);
+    dt.textContent = ;
+    document.querySelector('#hobbies').appendChild(li);
 });
-
+// 6.2 Create an HTML <dd> element and put its length property in the <dd> element.
+myProfile.favoriteFoods.forEach(hobbies => {
+    let li = document.createElement('li');
+    li.textContent = hobbies;
+    document.querySelector('#hobbies').appendChild(li);
+});
 

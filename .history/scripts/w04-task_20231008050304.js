@@ -103,16 +103,26 @@ myProfile.hobbies.forEach(hobbies => {
 
 // 6. For each object in the placesLived property:
 // 6.1 Create an HTML <dt> element and put its place property in the <dt> element.
-// 6.2 Create an HTML <dd> element and put its length property in the <dd> element
-myProfile.placesLived.forEach((item) => {
-    let placeLived = document.getElementById('places-lived');
-    let dt = document.createElement('dt');
-    let dd = document.createElement('dd');
-    dt.innerHTML = item.place;
-    dd.innerHTML = item.length;
+// myProfile.placesLived.forEach(placesLived => {
+//     let dt = document.createElement('dt');
+//     dt.textContent = placesLived;
+//     document.querySelector('#places-lived').appendChild(dt);
+// });
+for (let i = 0; i < myProfile.placesLived.length; i++) {
+    var place = myInfo.placesLived[i].place;
+    var dt = document.createElement('dt');
+    dt.innerHTML = place;
+// 6.2 Create an HTML <dd> element and put its length property in the <dd> element.
+// myProfile.placesLived.forEach(placesLived => {
+//     let dd = document.createElement('dd');
+//     dt.textContent = placesLived;
+//     document.querySelector('#places-lived').appendChild(dd);
+// });
+    var length = myInfo.placesLived[i].length;
+    var dd = document.createElement('dd');
+    dd.innerHTML = length;
 // 7. Append the HTML <dt> and <dd> elements created above to the 
 // HTML <dl> element with an ID of places-lived.
-    placeLived.append(dt, dd);
-});
-
-
+    document.getElementById("places-lived").appendChild(dt);
+    document.getElementById("places-lived").appendChild(dd);
+}
