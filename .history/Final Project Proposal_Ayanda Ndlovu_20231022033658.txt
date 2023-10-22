@@ -1,0 +1,4 @@
+I will use the Temples Task as a template.
+The theme for my Final Project is: Temples of the Church of Jesus Christ of Latter-Day Saints in Africa.
+It going to be more like a quize and general knowledge.
+First the user will be asked the following questions:
