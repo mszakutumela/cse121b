@@ -119,4 +119,3 @@ const sortBy = (temples) => {
 // sortBy function and sends a arrow function result with the templeList as the argument.
 document.querySelector("#sortBy") .addEventListener("change", () => { sortBy(templeList) });
 
-getTemples();

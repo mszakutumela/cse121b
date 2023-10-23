@@ -92,6 +92,8 @@ const sortBy = (temples) => {
 // 6. For each case, call the displayTemples function using an filter statement that 
 // filters the temples parameter for the four options provided.     
     switch (filter) {
+        
+    }
 // 6.1 "utah": filter for temples where the location contains "Utah" as a string.         
         case "utah":
             displayTemples(temples.filter((temple) => temple.location.includes("Utah")));
@@ -113,10 +115,10 @@ const sortBy = (temples) => {
     }
 }
 
+getTemples();
+
 /* Step 8: Event Listener */
 
 // 1. Add a change event listener to the HTML element with an ID of sortBy that calls the 
 // sortBy function and sends a arrow function result with the templeList as the argument.
 document.querySelector("#sortBy") .addEventListener("change", () => { sortBy(templeList) });
-
-getTemples();

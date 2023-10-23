@@ -56,67 +56,68 @@ const getTemples = async () => {
 // 2. In the function, declare a const variable named response that awaits the built-in 
 // fetch method calling the temple data, absolute URL given in Step 2 above.
     const response = await fetch(url);
-// 3. Convert your fetch response into a JavaScript object (.json) and assign the result 
-// to the templeList global array variable you declared in Step 3 above. Make sure the 
-// the execution of the code waits here as well until it finishes.  
-    if (response.ok){
-        templeList = await response.json();
-// 4. The last statement in the getTemples function calls the displayTemples function and 
-// passes it the list of temples (templeList).   
-        displayTemples(templeList);
-    }
+3. Convert your fetch response into a JavaScript object (.json) and assign the result to the templeList global array variable you declared in Step 3 above. Make sure the the execution of the code waits here as well until it finishes.  
 }
 
 
-/* Step 6: reset Function */
-
-// 1. Declare a function expression named reset that clears all of the <article> elements 
-// from the templesElement.
-let reset = () => {
-    templesElement.innerHTML = "";
-}
+/* reset Function */
 
 
-/* Step 7: sortBy Function */
+/* sortBy Function */
 
-// 1. Declare a function expression named sortBy.
-// 2. The function should accept a argument in a parameter named temples.
-const sortBy = (temples) => { 
-// 3. In this function, first call the reset function to clear the output.       
-    reset();
-// 4. Define a variable named filter that obtains the value of the HTML element 
-// with the ID of sortBy (The pull-down menu).   
-    let filter = document.querySelector("#sortBy").value;
-// 5. Use a switch statement that uses the filter value as the selector responding to 
-// four (4) cases.
-// 6. For each case, call the displayTemples function using an filter statement that 
-// filters the temples parameter for the four options provided.     
-    switch (filter) {
-// 6.1 "utah": filter for temples where the location contains "Utah" as a string.         
-        case "utah":
-            displayTemples(temples.filter((temple) => temple.location.includes("Utah")));
-            break;
-// 6.2 "notutah": filter for temples where the location does not contain "Utah" as a string.          
-        case "notutah":    
-            displayTemples(temples.filter((temple) =>! temple.location.includes("Utah")));
-            break;
-// 6.3 "older": filter for temples where the dedicated date is before 1950. (compare versus 
-//     new Date(1950, 0, 1)).           
-        case "older":
-            let fetchOlder = new Date(1950, 0, 1);
-            displayTemples(temples.filter((temple) => fetchOlder > new Date(temple.dedicated))); 
-            break;
-// 6.4 "all": no filter. Just use temples as the argument.          
-        case "all":
-            displayTemples(temples);
-            break;                                               
-    }
-}
 
-/* Step 8: Event Listener */
-
-// 1. Add a change event listener to the HTML element with an ID of sortBy that calls the 
-// sortBy function and sends a arrow function result with the templeList as the argument.
-document.querySelector("#sortBy") .addEventListener("change", () => { sortBy(templeList) });
 
 getTemples();
+
+/* Event Listener */
+
+
+/* W05: Programming Tasks */
+
+/* async getTemples Function using fetch()*/
+const getTemples = async () =>{
+    let url = 'https://byui-cse.github.io/cse121b-ww-course/resources/temples.json';
+    const response = await fetch(url);
+    if (response.ok){
+        templeList = await response.json();
+        //console.log(data);
+       displayTemples(templeList);       
+      };
+}
+const getTemples__ = async () =>{
+    let url = 'https://byui-cse.github.io/cse121b-ww-course/resources/temples.json';
+    const response = await fetch(url);
+    if (response.ok){
+        templeList = await response.json();
+        //console.log(data);
+       //displayTemples(templeList);       
+      };
+}
+/* reset Function */
+let reset = ()=> {      
+    templesElement.innerHTML ='';    
+}
+/* sortBy Function */
+const sortBy = (temples) => {    
+    reset();
+    let filter = document.querySelector("#sortBy").value;
+    switch (filter) {
+      case "utah":
+          displayTemples(temples.filter((temple)=>temple.location.includes("Utah")));
+          break;
+      case "notutah":    
+      displayTemples(temples.filter((temple)=>!temple.location.includes("Utah")));
+          break;
+      case "older":  //Built Before 1950
+        let fecha0 = new Date(1950,0,1);
+        displayTemples(temples.filter((temple)=>fecha0 > new Date(temple.dedicated))); 
+          break;
+      case "all":  
+          displayTemples(temples);
+          break;                                               
+    }
+}
+getTemples();
+    /* Event Listener */
+document.querySelector('#sortBy').addEventListener('change',() => sortBy(templeList));
+
