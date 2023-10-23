@@ -67,6 +67,7 @@ const getTemples = async () => {
     }
 }
 
+
 /* Step 6: reset Function */
 
 // 1. Declare a function expression named reset that clears all of the <article> elements 
