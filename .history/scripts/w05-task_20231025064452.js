@@ -52,7 +52,7 @@ const displayTemples = (temples) => {
 // 1. Create another function expression called getTemples. Make it an async anonymous, 
 // arrow function.
 const getTemples = async () => {
-    let url = "https://byui-cse.github.io/cse121b-ww-course/resources/temples.json";
+    let url = "https://run.mocky.io/v3/95faf416-1fea-44ce-9a35-82e9efc902e1";
 // 2. In the function, declare a const variable named response that awaits the built-in 
 // fetch method calling the temple data, absolute URL given in Step 2 above.
     const response = await fetch(url);

@@ -1,48 +1,57 @@
-/* W05: Programming Tasks */
+/* Project */
 
-// Step 1: Setup:
+// Short Quiz Section
 
-// 1. Download the starter files (2). Place the w05-task.html file on the root cse121b 
-// folder and the w05-task.js file in the scripts folder.
- 
-// Step 2: Review the Public Temple Data:
+function add(Number1, Number2, Number3) {
+    return Number1 + Number2 + Number3;
+}
 
-// 1. Navigate to this temple JSON file by clicking on the link.
-// temple JSON file: https://byui-cse.github.io/cse121b-ww-course/resources/temples.json
-// 2. Quickly Review and become familiar with the temple data format.
+function addTemples() {
+    let addNumber1 = Number(document.querySelector('#add1').value);
+    let addNumber2 = Number(document.querySelector('#add2').value);
+    let addNumber3 = Number(document.querySelector('#add3').value);
+    document.querySelector('#sum').value = add(addNumber1, addNumber2, addNumber3);
+}
+document.querySelector('#addTemples').addEventListener('click', addTemples);
 
-/* Step 3: Declare and initialize global variables */
+// For button: Check if the Total Number of Temples is correct or incorrect? (Code not working)
+const answer = (addTemples) => {
+    return addTemples;
+}
+const checkAnswer = () => {
+    let correct_answer = parseInt(document.querySelector('#answer').value);
+    let wrong_answer = parseInt(document.querySelector('#answer').value);
+    if(answer === correct_answer) {
+        let result = print("Correct! Well done!");
+        document.querySelector('#answer').value = result;
+    if(answer === wrong_answer) {
+        let result = print("Incorrect! Try again!");
+        document.querySelector('#answer').value = result;
+    }      
+    }  
+}   
+document.querySelector('#checkAnswer').addEventListener('click', checkAnswer);        
 
-// 1. Declare a const variable named templesElement that references the HTML div element 
-// that eventually will be populated with temple data.
+// Temples of the Church of Jesus Christ of Latter-Day Saints in Africa
+
+// temple JSON file: https://run.mocky.io/v3/95faf416-1fea-44ce-9a35-82e9efc902e1
+
 const templesElement = document.querySelector("#temples");
-// 2. Declare a global empty array variable to store a list of temples named templeList.
 let templeList = [];
 
-/* Step 4: async displayTemples Function */
-
-// 1. Declare a function expression using const named displayTemples that uses an arrow 
-// function to accept a list of temples as an array argument.
 const displayTemples = (temples) => {
-// 2.Process each temple in the temple array using a forEach method and do the 
-// following for each temple item:
-    temples.forEach(temple => {
-// 1. Create an HTML <article> element (createElement).        
-    let article = document.createElement("article"); 
-// 2. Create an HTML <h3> element and add the temple's templeName property to this 
-// new element.                     
+    temples.forEach(temple => {        
+    let article = document.createElement("article");                    
     let templeName = document.createElement("h3");
     templeName.textContent = temple.templeName;
-// 3. Create an HTML <img> element and add the temple's imageUrl property to the src 
-// attribute and the temple's location property to the alt attribute.    
+
     let img = document.createElement("img");
     img.setAttribute("src",temple.imageUrl);
     img.setAttribute("alt", temple.location);
-// 4. Append the <h3> element and the <img> element to the <article> element as children. 
-// (appendChild)        
+     
     article.appendChild(templeName);
     article.appendChild(img);
-// 5. Append the <article> element to the global templesElement variable declared in Step 2.
+
     templesElement.appendChild(article);                
     });            
 };
@@ -52,7 +61,7 @@ const displayTemples = (temples) => {
 // 1. Create another function expression called getTemples. Make it an async anonymous, 
 // arrow function.
 const getTemples = async () => {
-    let url = "https://byui-cse.github.io/cse121b-ww-course/resources/temples.json";
+    let url = "https://run.mocky.io/v3/95faf416-1fea-44ce-9a35-82e9efc902e1";
 // 2. In the function, declare a const variable named response that awaits the built-in 
 // fetch method calling the temple data, absolute URL given in Step 2 above.
     const response = await fetch(url);
@@ -67,13 +76,13 @@ const getTemples = async () => {
     }
 }
 
-// /* Step 6: reset Function */
+/* Step 6: reset Function */
 
-// // 1. Declare a function expression named reset that clears all of the <article> elements 
-// // from the templesElement.
-// let reset = () => {
-//     templesElement.innerHTML = "";
-// }
+// 1. Declare a function expression named reset that clears all of the <article> elements 
+// from the templesElement.
+let reset = () => {
+    templesElement.innerHTML = "";
+}
 
 // /* Step 7: sortBy Function */
 
@@ -111,10 +120,11 @@ const getTemples = async () => {
 //     }
 // }
 
-// /* Step 8: Event Listener */
+/* Step 8: Event Listener */
 
-// // 1. Add a change event listener to the HTML element with an ID of sortBy that calls the 
-// // sortBy function and sends a arrow function result with the templeList as the argument.
+// 1. Add a change event listener to the HTML element with an ID of sortBy that calls the 
+// sortBy function and sends a arrow function result with the templeList as the argument.
 // document.querySelector("#sortBy") .addEventListener("change", () => { sortBy(templeList) });
 
 getTemples();
+

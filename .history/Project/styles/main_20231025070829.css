@@ -139,7 +139,6 @@ input[type="button"] {
     width: 100%
 }
 
-
 input[type="checkbox"] {
     width: 25px;
     height: 25px;
@@ -307,7 +306,7 @@ footer {
 
     #Quiz {
         display: grid;
-        grid-template-columns: 6fr 0fr;
+        grid-template-columns: 1fr 0fr;
         grid-gap: 5px;
         margin: 0 auto;
         max-width: 950px;

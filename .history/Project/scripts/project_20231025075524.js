@@ -50,5 +50,3 @@ const getTemples = async (url)=>{
 }
 
 
-getTemples();
-
