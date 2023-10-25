@@ -1,0 +1,135 @@
+[
+  {
+    "templeName": "Aba Nigeria",
+    "location": "Aba, Nigeria",
+    "announced": "2000, April, 2",
+    "groundbreaking": "2002, February, 23",
+    "dedicated": "2005, August, 7",
+    "dedicatoryprayerUrl": "https://www.churchofjesuschrist.org/temples/details/aba-nigeria-temple/prayer/2005-08-07?lang=eng",
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-1636397-wallpaper.jpg"
+  },
+  {
+    "templeName": "Accra Ghana",
+    "location": "Accra, Greater Accra, Ghana",
+    "announced": "2011, October, 1",
+    "groundbreaking": "2016, April, 9",
+    "dedicated": "2020, February, 16",
+    "dedicatoryprayerUrl": "https://www.churchofjesuschrist.org/temples/details/accra-ghana-temple/prayer/2004-01-11?lang=eng",
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/accra-ghana/400x225/accra-ghana-temple-detail-249022-2400x1200.jpg"
+  },
+  {
+    "templeName": "Durban South Africa",
+    "location": "Durban, Kwa-Zulu Natal, South Africa",
+    "announced": "1998, February, 16",
+    "groundbreaking": "2001, November, 16",
+    "dedicated": "2020, February, 16",
+    "dedicatoryprayerUrl": "https://www.churchofjesuschrist.org/temples/details/durban-south-africa-temple/prayer/2020-02-16?lang=eng",
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/durban-south-africa/400x250/4-5fcf64b0979ac41f7197d049ea8c4ffad88cd1b4.jpg"
+  },
+  {
+    "templeName": "Johannesburg South Africa",
+    "location": "Gauteng, South Africa",
+    "announced": "1981, April, 1",
+    "groundbreaking": "1982, November, 27",
+    "dedicated": "1985, August, 24",
+    "dedicatoryprayerUrl": "https://www.churchofjesuschrist.org/temples/details/johannesburg-south-africa-temple/prayer/1985-08-24?lang=eng",
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/johannesburg-south-africa/400x250/johannesburg-south-africa-temple-lds-83166-wallpaper.jpg"
+  },
+  {
+    "templeName": "Kinshasa DR-Congo",
+    "location": "DR-Congo",
+    "announced": "2011, October, 1",
+    "groundbreaking": "2016, February, 12",
+    "dedicated": "2019, April, 14",
+    "dedicatoryprayerUrl": "https://www.churchofjesuschrist.org/temples/details/accra-ghana-temple/prayer/2004-01-11?lang=eng",
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
+  },
+  {
+    "templeName": "Provo City Center",
+    "location": "Provo, Utah, United States",
+    "announced": "1998, February, 16",
+    "groundbreaking": "2001, November, 16",
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/provo-city-center/400x250/provo-city-center-temple-1572517-wallpaper.jpg"
+  },
+  {
+    "templeName": "Provo Utah",
+    "location": "Provo, Utah, United States",
+    "announced": "1998, February, 16",
+    "groundbreaking": "2001, November, 16",
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/provo-utah/400x250/provo-temple-lds-890642-wallpaper.jpg"
+  },
+  {
+    "templeName": "Winter Quarters Nebraska",
+    "location": "Florence, Nebraska, United States",
+    "announced": "1998, February, 16",
+    "groundbreaking": "2001, November, 16",
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/winter-quarters-nebraska/400x250/winter-quarters-nebraska-temple-detail-772766.jpg"
+  },
+  {
+    "templeName": "Salt Lake",
+    "location": "Salt Lake City, Utah, United States",
+    "announced": "1998, February, 16",
+    "groundbreaking": "2001, November, 16",
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/2018/400x250/slctemple5.jpg"
+  },
+  {
+    "templeName": "Beira Mozambique",
+    "location": "Mozambique",
+    "announced": "2021, April, 4",
+  },
+  {
+    "templeName": "Benin City Nigeria",
+    "location": "Nigeria",
+    "announced": "2020, April, 5",
+  },
+  {
+    "templeName": "Brazzaville DR-Congo",
+    "location": "DR-Congo",
+    "announced": "2023, April, 3",
+  },
+  {
+    "templeName": "Calabar Nigeria",
+    "location": "Nigeria",
+    "announced": "2023, October, 1",
+  },
+  {
+    "templeName": "Cape Coast Ghana",
+    "location": "Ghana",
+    "announced": "2023, October, 1",
+  },
+  {
+    "templeName": "Cape Town South Africa",
+    "location": "Western Cape, South Africa",
+    "announced": "2021, April, 4",
+  },
+  {
+    "templeName": "Kananga DR-Congo",
+    "location": "DR-Congo",
+    "announced": "1998, February, 16",
+  },
+  {
+    "templeName": "Kumasi Ghana",
+    "location": "Ghana",
+    "announced": "2021, April, 4",
+  },
+  {
+    "templeName": "Lagos Nigeria",
+    "location": "Nigeria",
+    "announced": "1998, February, 16",
+  },
+   {
+    "templeName": "Luanda Angola",
+    "location": "Angola",
+    "announced": "2023, October, 1",
+  },
+  {
+    "templeName": "Mbuji-Mayi DR-Congo",
+    "location": "DR-Congo",
+    "announced": "2023, October, 1",
+  },
+  {
+    "templeName": "Monrovia Liberia",
+    "location": "Liberia",
+    "announced": "2021, October, 3",
+  }
+]
