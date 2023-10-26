@@ -42,5 +42,5 @@ Fourteen (14) Temples have been announced to date.
 > All fourteen Temples will be listed. (I'm not sure as yet if I will display the images of these Temples) 
 
 References while working on my Project:
-- https://designer.mocky.io/ (first json file created: https://run.mocky.io/v3/95faf416-1fea-44ce-9a35-82e9efc902e1)
+- https://designer.mocky.io/
 - https://medium.com/@alessandromanilii/hosting-json-files-on-github-a85166ad5de#:~:text=Drag%20and%20drop%20your%20json,domain%20name%20if%20you%20like.
