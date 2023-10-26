@@ -62,7 +62,8 @@
     "templeName": "Lubumbashi DR-Congo",
     "location": "DR-Congo",
     "announced": "2020-April-5",
-    "groundbreaking": "2022-August-20"
+    "groundbreaking": "2022-August-20",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
   },
   {
     "templeName": "Nairobi Kenya",
@@ -74,61 +75,73 @@
   {
     "templeName": "Beira Mozambique",
     "location": "Mozambique",
-    "announced": "2021-April-4"
+    "announced": "2021-April-4",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
   },
   {
     "templeName": "Benin City Nigeria",
     "location": "Nigeria",
-    "announced": "2020-April-5"
+    "announced": "2020-April-5",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
   },
   {
     "templeName": "Brazzaville DR-Congo",
     "location": "DR-Congo",
-    "announced": "2023-April-3"
+    "announced": "2023-April-3",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
   },
   {
     "templeName": "Calabar Nigeria",
     "location": "Nigeria",
-    "announced": "2023-October-1"
+    "announced": "2023-October-1",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
   },
   {
     "templeName": "Cape Coast Ghana",
     "location": "Ghana",
-    "announced": "2023-October-1"
+    "announced": "2023-October-1",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
   },
   {
     "templeName": "Cape Town South Africa",
     "location": "Western Cape, South Africa",
-    "announced": "2021-April-4"
+    "announced": "2021-April-4",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
   },
   {
     "templeName": "Kananga DR-Congo",
     "location": "DR-Congo",
-    "announced": "1998-February-16"
+    "announced": "1998-February-16",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
   },
   {
     "templeName": "Kumasi Ghana",
     "location": "Ghana",
-    "announced": "2021-April-4"
+    "announced": "2021-April-4",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
   },
   {
     "templeName": "Lagos Nigeria",
     "location": "Nigeria",
-    "announced": "1998-February-16"
+    "announced": "1998-February-16",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
   },
    {
     "templeName": "Luanda Angola",
     "location": "Angola",
-    "announced": "2023-October-1"
+    "announced": "2023-October-1",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
   },
   {
     "templeName": "Mbuji-Mayi DR-Congo",
     "location": "DR-Congo",
-    "announced": "2023-October-1"
+    "announced": "2023-October-1",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
   },
   {
     "templeName": "Monrovia Liberia",
     "location": "Liberia",
-    "announced": "2021-October-3"
+    "announced": "2021-October-3",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
   }
 ]
