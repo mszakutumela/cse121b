@@ -61,6 +61,7 @@ let reset = () => {
 
 /* SortBy Function */
 
+
 const sortBy = (temples) => {
     reset();
     let filter = document.querySelector("#sortBy").value;
@@ -86,8 +87,13 @@ const sortBy = (temples) => {
     
     /* Event Listener */
     
+    // 1. Add a change event listener to the HTML element with an ID of sortBy that calls the 
+    // sortBy function and sends a arrow function result with the templeList as the argument.
     document.querySelector("#sortBy") .addEventListener("change", () => { sortBy(templeList) });
 
 getTemples();
 
-           
+            // case "named":
+            //     let fetchOlder = new Date(1950, 0, 1);
+            //     displayTemples(temples.filter((temple) => fetchOlder > new Date(temple.dedicated))); 
+            //     break;

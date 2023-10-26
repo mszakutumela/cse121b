@@ -59,35 +59,10 @@ let reset = () => {
     templesElement.innerHTML = "";
 }
 
-/* SortBy Function */
+/* Step 7: sortBy Function */
 
-const sortBy = (temples) => {
-    reset();
-    let filter = document.querySelector("#sortBy").value;
-        switch (filter) {  
 
-            case "operate":
-                displayTemples(temples.filter((temple) => temple.status.includes("use")));
-                break;
-             
-            case "construc":    
-                displayTemples(temples.filter((temple) => temple.status.includes("progress")));
-                break;
 
-            case "named":
-                displayTemples(temples.filter((temple) => temple.status.includes("notbornyet")));
-                break;    
-                        
-            case "all":
-                displayTemples(temples);
-                break;                                               
-        }
-    }
-    
-    /* Event Listener */
-    
-    document.querySelector("#sortBy") .addEventListener("change", () => { sortBy(templeList) });
+
 
 getTemples();
-
-           

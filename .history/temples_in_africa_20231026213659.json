@@ -1,0 +1,155 @@
+[
+  {
+    "templeName": "Aba Nigeria",
+    "location": "Aba, Nigeria",
+    "announced": "2000-April-2",
+    "groundbreaking": "2002-February-23",
+    "dedicated": "2005-August-7",
+    "status": "temple in use",
+    "dedicatory_prayerUrl": "https://www.churchofjesuschrist.org/temples/details/aba-nigeria-temple/prayer/2005-08-07?lang=eng",
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-1636397-wallpaper.jpg"
+  },
+  {
+    "templeName": "Accra Ghana",
+    "location": "Accra, Greater Accra, Ghana",
+    "announced": "2011-October-1",
+    "groundbreaking": "2016-April-9",
+    "dedicated": "2020-February-16",
+    "status": "temple in use",
+    "dedicatory_prayerUrl": "https://www.churchofjesuschrist.org/temples/details/accra-ghana-temple/prayer/2004-01-11?lang=eng",
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/accra-ghana/400x225/accra-ghana-temple-detail-249022-2400x1200.jpg"
+  },
+  {
+    "templeName": "Durban South Africa",
+    "location": "Durban, Kwa-Zulu Natal, South Africa",
+    "announced": "1998-February-16",
+    "groundbreaking": "2001-November-16",
+    "dedicated": "2020-February-16",
+    "status": "temple in use",
+    "dedicatory_prayerUrl": "https://www.churchofjesuschrist.org/temples/details/durban-south-africa-temple/prayer/2020-02-16?lang=eng",
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/durban-south-africa/400x250/4-5fcf64b0979ac41f7197d049ea8c4ffad88cd1b4.jpg"
+  },
+  {
+    "templeName": "Johannesburg South Africa",
+    "location": "Gauteng, South Africa",
+    "announced": "1981-April-1",
+    "groundbreaking": "1982-November-27",
+    "dedicated": "1985-August-24",
+    "status": "temple in use",
+    "dedicatory_prayerUrl": "https://www.churchofjesuschrist.org/temples/details/johannesburg-south-africa-temple/prayer/1985-08-24?lang=eng",
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/johannesburg-south-africa/400x250/johannesburg-south-africa-temple-lds-83166-wallpaper.jpg"
+  },
+  {
+    "templeName": "Kinshasa DR-Congo",
+    "location": "DR-Congo",
+    "announced": "2011-October-1",
+    "groundbreaking": "2016-February-12",
+    "dedicated": "2019-April-14",
+    "status": "temple in use",
+    "dedicatory_prayerUrl": "https://www.churchofjesuschrist.org/temples/details/kinshasa-democratic-republic-of-the-congo-temple/prayer/2019-04-14?lang=eng",
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/kinshasa-democratic-republic-of-congo/400x250/01-Kinshasa-DRCongo-Temple-2208932.jpg"
+  },
+  {
+    "templeName": "AbidIvory Coastjan ",
+    "location": "Ivory Coast",
+    "announced": "2015-April-5",
+    "groundbreaking": "2018-November-8",
+    "status": "temple in progress",
+    "imageUrl": "https://www.churchofjesuschrist.org/imgs/4fbff8f9b4d4bc10041f52b7de02d507c07a2d1c/full/320%2C/0/default"
+  },
+  {
+    "templeName": "Harare Zimbabwe",
+    "location": "Zimbabwe",
+    "announced": "2016-April-3",
+    "groundbreaking": "2020-December-12",
+    "status": "temple in progress",
+    "imageUrl": "https://www.churchofjesuschrist.org/imgs/13d2f6cf147a36f20e52890a7d46c054541a5357/full/320%2C/0/default"
+  },
+  {
+    "templeName": "Lubumbashi DR-Congo",
+    "location": "DR-Congo",
+    "announced": "2020-April-5",
+    "groundbreaking": "2022-August-20",
+    "status": "temple in progress",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
+  },
+  {
+    "templeName": "Nairobi Kenya",
+    "location": "Kenya",
+    "announced": "2017-April-2",
+    "groundbreaking": "2021-September-11",
+    "imageUrl": "https://www.churchofjesuschrist.org/imgs/dd3ec3a7011711ecbb5eeeeeac1e9b2ad9104e32/full/320%2C/0/default"
+  },
+  {
+    "templeName": "Beira Mozambique",
+    "location": "Mozambique",
+    "announced": "2021-April-4",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
+  },
+  {
+    "templeName": "Benin City Nigeria",
+    "location": "Nigeria",
+    "announced": "2020-April-5",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
+  },
+  {
+    "templeName": "Brazzaville DR-Congo",
+    "location": "DR-Congo",
+    "announced": "2023-April-3",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
+  },
+  {
+    "templeName": "Calabar Nigeria",
+    "location": "Nigeria",
+    "announced": "2023-October-1",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
+  },
+  {
+    "templeName": "Cape Coast Ghana",
+    "location": "Ghana",
+    "announced": "2023-October-1",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
+  },
+  {
+    "templeName": "Cape Town South Africa",
+    "location": "Western Cape, South Africa",
+    "announced": "2021-April-4",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
+  },
+  {
+    "templeName": "Kananga DR-Congo",
+    "location": "DR-Congo",
+    "announced": "1998-February-16",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
+  },
+  {
+    "templeName": "Kumasi Ghana",
+    "location": "Ghana",
+    "announced": "2021-April-4",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
+  },
+  {
+    "templeName": "Lagos Nigeria",
+    "location": "Nigeria",
+    "announced": "1998-February-16",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
+  },
+   {
+    "templeName": "Luanda Angola",
+    "location": "Angola",
+    "announced": "2023-October-1",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
+  },
+  {
+    "templeName": "Mbuji-Mayi DR-Congo",
+    "location": "DR-Congo",
+    "announced": "2023-October-1",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
+  },
+  {
+    "templeName": "Monrovia Liberia",
+    "location": "Liberia",
+    "announced": "2021-October-3",
+    "imageUrl": "https://raw.githubusercontent.com/mszakutumela/cse121b/main/no-image-available.png"
+  }
+]

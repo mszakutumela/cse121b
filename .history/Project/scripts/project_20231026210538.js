@@ -54,40 +54,11 @@ const getTemples = async () => {
 }
 
 /* Reset Function */
+const templesElement = document.querySelector("#temples");
+// 2. Declare a global empty array variable to store a list of temples named templeList.
+let templeList = [];
 
-let reset = () => {
-    templesElement.innerHTML = "";
-}
 
-/* SortBy Function */
 
-const sortBy = (temples) => {
-    reset();
-    let filter = document.querySelector("#sortBy").value;
-        switch (filter) {  
-
-            case "operate":
-                displayTemples(temples.filter((temple) => temple.status.includes("use")));
-                break;
-             
-            case "construc":    
-                displayTemples(temples.filter((temple) => temple.status.includes("progress")));
-                break;
-
-            case "named":
-                displayTemples(temples.filter((temple) => temple.status.includes("notbornyet")));
-                break;    
-                        
-            case "all":
-                displayTemples(temples);
-                break;                                               
-        }
-    }
-    
-    /* Event Listener */
-    
-    document.querySelector("#sortBy") .addEventListener("change", () => { sortBy(templeList) });
 
 getTemples();
-
-           

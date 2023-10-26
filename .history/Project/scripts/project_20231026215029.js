@@ -61,6 +61,7 @@ let reset = () => {
 
 /* SortBy Function */
 
+
 const sortBy = (temples) => {
     reset();
     let filter = document.querySelector("#sortBy").value;
@@ -90,4 +91,7 @@ const sortBy = (temples) => {
 
 getTemples();
 
-           
+            // case "named":
+            //     let fetchOlder = new Date(1950, 0, 1);
+            //     displayTemples(temples.filter((temple) => fetchOlder > new Date(temple.dedicated))); 
+            //     break;

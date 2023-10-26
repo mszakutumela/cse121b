@@ -18,7 +18,7 @@ document.querySelector('#addTemples').addEventListener('click', addTemples);
 
 // temple JSON file: https://mszakutumela.github.io/cse121b/temples_in_africa.json
 
-/* Declare and initialize global variables */
+/* Step 3: Declare and initialize global variables */
 
 const templesElement = document.querySelector("#temples");
 let templeList = [];
@@ -55,39 +55,7 @@ const getTemples = async () => {
 
 /* Reset Function */
 
-let reset = () => {
-    templesElement.innerHTML = "";
-}
 
-/* SortBy Function */
 
-const sortBy = (temples) => {
-    reset();
-    let filter = document.querySelector("#sortBy").value;
-        switch (filter) {  
-
-            case "operate":
-                displayTemples(temples.filter((temple) => temple.status.includes("use")));
-                break;
-             
-            case "construc":    
-                displayTemples(temples.filter((temple) => temple.status.includes("progress")));
-                break;
-
-            case "named":
-                displayTemples(temples.filter((temple) => temple.status.includes("notbornyet")));
-                break;    
-                        
-            case "all":
-                displayTemples(temples);
-                break;                                               
-        }
-    }
-    
-    /* Event Listener */
-    
-    document.querySelector("#sortBy") .addEventListener("change", () => { sortBy(templeList) });
 
 getTemples();
-
-           
