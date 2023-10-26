@@ -20,19 +20,18 @@ document.querySelector('#addTemples').addEventListener('click', addTemples);
 
 const templesElement = document.querySelector("#temples");
 let templeList = [];
-
-/* async displayTemples Function */
+const url = "https://mszakutumela.github.io/cse121b/temples_in_africa.json";
 
 const displayTemples = (temples) => {
-    temples.forEach(temple => {      
-    let article = document.createElement("article");                   
+    temples.forEach(temple => {        
+    let article = document.createElement("article");                    
     let templeName = document.createElement("h3");
     templeName.textContent = temple.templeName;
 
     let img = document.createElement("img");
     img.setAttribute("src",temple.imageUrl);
     img.setAttribute("alt", temple.location);
-       
+     
     article.appendChild(templeName);
     article.appendChild(img);
 
@@ -40,10 +39,9 @@ const displayTemples = (temples) => {
     });            
 };
 
-/* async getTemples Function using fetch()*/
+/*async getTemples Function using fetch()*/
 
-const getTemples = async () => {
-    let url = "https://mszakutumela.github.io/cse121b/temples_in_africa.json";
+const getTemples = async (url)=>{
     const response = await fetch(url);
     if (response.ok){
         templeList = await response.json();
@@ -51,4 +49,6 @@ const getTemples = async () => {
     }
 }
 
+
 getTemples();
+

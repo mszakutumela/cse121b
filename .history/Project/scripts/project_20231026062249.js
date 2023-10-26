@@ -16,7 +16,7 @@ document.querySelector('#addTemples').addEventListener('click', addTemples);
 
 // Temples of the Church of Jesus Christ of Latter-Day Saints in Africa
 
-// temple JSON file: https://mszakutumela.github.io/cse121b/temples_in_africa.json
+// temple JSON file: https://run.mocky.io/v3/95faf416-1fea-44ce-9a35-82e9efc902e1
 
 const templesElement = document.querySelector("#temples");
 let templeList = [];
@@ -45,8 +45,13 @@ const displayTemples = (temples) => {
 const getTemples = async () => {
     let url = "https://mszakutumela.github.io/cse121b/temples_in_africa.json";
     const response = await fetch(url);
+// 3. Convert your fetch response into a JavaScript object (.json) and assign the result 
+// to the templeList global array variable you declared in Step 3 above. Make sure the 
+// the execution of the code waits here as well until it finishes.  
     if (response.ok){
         templeList = await response.json();
+// 4. The last statement in the getTemples function calls the displayTemples function and 
+// passes it the list of temples (templeList).   
         displayTemples(templeList);
     }
 }
