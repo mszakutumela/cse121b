@@ -116,7 +116,7 @@ const sortBy2 = (temples) => {
                 break;            
                         
             case "all":
-                displayTemples(temples.filter((temple) => temple.status.includes("use")));
+                displayTemples(temples.filter((temple) => temple..includes("use")));
                 break;                                               
         }
     }

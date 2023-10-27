@@ -84,46 +84,10 @@ const sortBy = (temples) => {
         }
     }
     
-/* Event Listener */
+    /* Event Listener */
     
-document.querySelector("#sortBy") .addEventListener("change", () => { sortBy(templeList) });
-
-/* SortBy2 Function */
-
-const sortBy2 = (temples) => {
-    reset();
-    let filter = document.querySelector("#sortBy2").value;
-        switch (filter) {  
-
-            case "aba":
-                displayTemples(temples.filter((temple) => temple.location.includes("use")));
-                break;
-             
-            case "accra":    
-                displayTemples(temples.filter((temple) => temple.location.includes("use")));
-                break;atu
-
-            case "durban":
-                displayTemples(temples.filter((temple) => temple.location.includes("use")));
-                break;    
-
-            case "johannesburg":
-                displayTemples(temples.filter((temple) => temple.location.includes("use")));
-                break;    
-                    
-            case "kinshasa":
-                displayTemples(temples.filter((temple) => temple.location.includes("use")));
-                break;            
-                        
-            case "all":
-                displayTemples(temples.filter((temple) => temple.status.includes("use")));
-                break;                                               
-        }
-    }
+    document.querySelector("#sortBy") .addEventListener("change", () => { sortBy(templeList) });
     
-/* Event Listener */
-    
-document.querySelector("#sortBy2") .addEventListener("change", () => { sortBy2(templeList) });    
 
 getTemples();
 

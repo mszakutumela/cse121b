@@ -84,46 +84,38 @@ const sortBy = (temples) => {
         }
     }
     
-/* Event Listener */
+    /* Event Listener */
     
-document.querySelector("#sortBy") .addEventListener("change", () => { sortBy(templeList) });
+    document.querySelector("#sortBy") .addEventListener("change", () => { sortBy(templeList) });
 
 /* SortBy2 Function */
 
-const sortBy2 = (temples) => {
+const sortBy = (temples) => {
     reset();
-    let filter = document.querySelector("#sortBy2").value;
+    let filter = document.querySelector("#sortBy").value;
         switch (filter) {  
 
-            case "aba":
-                displayTemples(temples.filter((temple) => temple.location.includes("use")));
+            case "operate":
+                displayTemples(temples.filter((temple) => temple.status.includes("use")));
                 break;
              
-            case "accra":    
-                displayTemples(temples.filter((temple) => temple.location.includes("use")));
-                break;atu
+            case "construct":    
+                displayTemples(temples.filter((temple) => temple.status.includes("progress")));
+                break;
 
-            case "durban":
-                displayTemples(temples.filter((temple) => temple.location.includes("use")));
+            case "named":
+                displayTemples(temples.filter((temple) => temple.status.includes("notbornyet")));
                 break;    
-
-            case "johannesburg":
-                displayTemples(temples.filter((temple) => temple.location.includes("use")));
-                break;    
-                    
-            case "kinshasa":
-                displayTemples(temples.filter((temple) => temple.location.includes("use")));
-                break;            
                         
             case "all":
-                displayTemples(temples.filter((temple) => temple.status.includes("use")));
+                displayTemples(temples);
                 break;                                               
         }
     }
     
-/* Event Listener */
+    /* Event Listener */
     
-document.querySelector("#sortBy2") .addEventListener("change", () => { sortBy2(templeList) });    
+    document.querySelector("#sortBy") .addEventListener("change", () => { sortBy(templeList) });    
 
 getTemples();
 

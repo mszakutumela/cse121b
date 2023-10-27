@@ -116,14 +116,14 @@ const sortBy2 = (temples) => {
                 break;            
                         
             case "all":
-                displayTemples(temples.filter((temple) => temple.status.includes("use")));
+                displayTemples(temples.filter((temple) => temple.location.includes("use")));
                 break;                                               
         }
     }
     
 /* Event Listener */
     
-document.querySelector("#sortBy2") .addEventListener("change", () => { sortBy2(templeList) });    
+document.querySelector("#sortBy2") .addEventListener("change", () => { sortBy(templeList) });    
 
 getTemples();
 

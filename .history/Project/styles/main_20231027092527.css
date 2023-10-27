@@ -262,7 +262,7 @@ footer {
     border-radius: 10%;
 }
 
-#sortBy2 option:disabled {
+#sortBy option:disabled {
     font-style: italic;
     padding: 1rem;
     background-color: #111;

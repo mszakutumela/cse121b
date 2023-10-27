@@ -84,9 +84,9 @@ const sortBy = (temples) => {
         }
     }
     
-/* Event Listener */
+    /* Event Listener */
     
-document.querySelector("#sortBy") .addEventListener("change", () => { sortBy(templeList) });
+    document.querySelector("#sortBy") .addEventListener("change", () => { sortBy(templeList) });
 
 /* SortBy2 Function */
 
@@ -112,7 +112,7 @@ const sortBy2 = (temples) => {
                 break;    
                     
             case "kinshasa":
-                displayTemples(temples.filter((temple) => temple.location.includes("use")));
+                displayTemples(temples.filter((temple) => temple.status.includes("use")));
                 break;            
                         
             case "all":
@@ -121,9 +121,9 @@ const sortBy2 = (temples) => {
         }
     }
     
-/* Event Listener */
+    /* Event Listener */
     
-document.querySelector("#sortBy2") .addEventListener("change", () => { sortBy2(templeList) });    
+    document.querySelector("#sortBy2") .addEventListener("change", () => { sortBy(templeList) });    
 
 getTemples();
 
