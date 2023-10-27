@@ -35,7 +35,7 @@ function answers() {
     document.querySelector('#sum').value = add(addNumber1, addNumber2, addNumber3);
 
 // Conditions for the #answers button   
-    let wrongAnswer = "wrong answer";
+    let wrongAnswer = "wrong Answer!";
     let sumNumber = Number(document.querySelector('#sum').value);
 // condition 1
     if (addNumber1 == answerOne) {
