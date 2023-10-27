@@ -36,7 +36,7 @@ function answers() {
 
 // Conditions for the #answers button   
     let wrongAnswer = "Wrong Answer!";
-    let sumNumber = Number(document.querySelector('#sum').value);
+    
 // condition 1
     if (addNumber1 == answerOne) {
         ans1Element.innerHTML = `<strong>${answerOne}, correct answer</strong>`;
@@ -56,7 +56,7 @@ function answers() {
         ans3Element.innerHTML = `<strong>${wrongAnswer}</strong>`;
     }
 // condition 4
-    if (sumNumber == answerFour) {
+    if (addNumber4 == answerOne) {
         ans4Element.innerHTML = `<strong>${answerFour}, correct answer</strong>`;
     } else {
         ans4Element.innerHTML = `<strong>${wrongAnswer}</strong>`;
