@@ -96,7 +96,7 @@ const sortBy2 = (temples) => {
         switch (filter) {  
 
             case "aba":
-                displayTemples(temples.filter((temple) => temple.location.includes("Aba")));
+                displayTemples(temples.filter((temple) => temple.location.includes("Nigeria")));
                 break;
              
             case "accra":    
@@ -104,15 +104,15 @@ const sortBy2 = (temples) => {
                 break;atu
 
             case "durban":
-                displayTemples(temples.filter((temple) => temple.location.includes("Durban")));
+                displayTemples(temples.filter((temple) => temple.location.includes("durban")));
                 break;    
 
             case "johannesburg":
-                displayTemples(temples.filter((temple) => temple.location.includes("Johannesburg")));
+                displayTemples(temples.filter((temple) => temple.location.includes("johannesburg")));
                 break;    
                     
             case "kinshasa":
-                displayTemples(temples.filter((temple) => temple.location.includes("Kinshasa")));
+                displayTemples(temples.filter((temple) => temple.location.includes("kinshasa")));
                 break;            
                         
             case "all":

@@ -108,11 +108,11 @@ const sortBy2 = (temples) => {
                 break;    
 
             case "johannesburg":
-                displayTemples(temples.filter((temple) => temple.location.includes("Johannesburg")));
+                displayTemples(temples.filter((temple) => temple.location.includes("johannesburg")));
                 break;    
                     
             case "kinshasa":
-                displayTemples(temples.filter((temple) => temple.location.includes("Kinshasa")));
+                displayTemples(temples.filter((temple) => temple.location.includes("kinshasa")));
                 break;            
                         
             case "all":
