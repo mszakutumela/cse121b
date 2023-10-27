@@ -28,7 +28,7 @@
     <h1>Temples of the Church of Jesus Christ of Latter-Day Saints in Africa</h1>
     <h2>How well do you know the Temples in Africa?</h2>
 
-    <main id="quiz">
+    <main id="Quiz">
       <section id="section1">
           <article>
               <h3>Short Quiz Questions</h3>
@@ -54,37 +54,39 @@
 
               <div>
                 <label for="answer">The number of operational Temples in Africa is:</label>
+                <input type="text" id="answer" name="answer" disabled>
             </div>
             <div>
               <label for="answer">The number of Temples are under construction in Africa is:</label>
+              <input type="text" id="answer" name="answer" disabled>
             </div>
             <div>
               <label for="answer">The number of Temples announced in Africa is:</label>
+              <input type="text" id="answer" name="answer" disabled>
             </div>
             <div>
               <label for="answer">The total number of all Temples in Africa is:</label>
+              <input type="text" id="answer" name="answer" disabled>
             </div>
           </article>
       </section>
     </main>
 
-    <main id="filters">
-      <select id="sortBy" title="Choose a data filter.">
-        <option value="" disabled selected>Filter Temples</option>
-        <option value="operate">Operational</option>
-        <option value="construct">Under Construction</option>
-        <option value="named">Announced</option>
-        <option value="all">All Temples in Africa</option>
-      </select>
+    <select id="sortBy" title="Choose a data filter.">
+      <option value="" disabled selected>Filter Temples</option>
+      <option value="operate">Operational</option>
+      <option value="construct">Under Construction</option>
+      <option value="named">Announced</option>
+      <option value="all">All Temples in Africa</option>
+    </select>
 
-      <select id="sortBy2" title="Choose a temple.">
-        <option value="" disabled selected>Filter Operational Temples</option>
-        <option value="operate">Operational</option>
-        <option value="construct">Under Construction</option>
-        <option value="named">Announced</option>
-        <option value="all">All Temples in Africa</option>
-      </select>
-    </main>
+    <select id="sortBy" title="Choose a data filter.">
+      <option value="" disabled selected>Filter Temples</option>
+      <option value="operate">Operational</option>
+      <option value="construct">Under Construction</option>
+      <option value="named">Announced</option>
+      <option value="all">All Temples in Africa</option>
+    </select>
 
     <div id="temples">
     </div>

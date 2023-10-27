@@ -330,10 +330,10 @@ footer {
 
     #filters {
         display: grid;
-        grid-template-columns: 4fr 2fr;
+        grid-template-columns: 6fr 1fr;
         grid-gap: 2px;
         margin: 0 auto;
-        max-width: 450px;
+        max-width: 250px;
     }
 
 }

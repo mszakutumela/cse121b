@@ -320,20 +320,7 @@ footer {
         max-width: fit-content;
     }
 
-    #quiz {
-        display: grid;
-        grid-template-columns: 6fr 0fr;
-        grid-gap: 5px;
-        margin: 0 auto;
-        max-width: 950px;
-    }
-
-    #filters {
-        display: grid;
-        grid-template-columns: 4fr 2fr;
-        grid-gap: 2px;
-        margin: 0 auto;
-        max-width: 450px;
-    }
+    
+    
 
 }

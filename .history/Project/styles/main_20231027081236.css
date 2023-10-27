@@ -229,7 +229,7 @@ footer {
 
 #sortBy {
     appearance: none;
-    /* display: flex; */
+    display: ;
     padding: .5rem;
     background-color: rgb(40, 40, 230);
     color: white;
@@ -250,7 +250,7 @@ footer {
 
 #sortBy2 {
     appearance: none;
-    /* display: flex; */
+    display: flex;
     padding: .5rem;
     background-color: rgb(40, 40, 230);
     color: white;
@@ -320,20 +320,12 @@ footer {
         max-width: fit-content;
     }
 
-    #quiz {
+    #Quiz {
         display: grid;
         grid-template-columns: 6fr 0fr;
         grid-gap: 5px;
         margin: 0 auto;
         max-width: 950px;
-    }
-
-    #filters {
-        display: grid;
-        grid-template-columns: 4fr 2fr;
-        grid-gap: 2px;
-        margin: 0 auto;
-        max-width: 450px;
     }
 
 }

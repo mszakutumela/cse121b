@@ -131,7 +131,7 @@ input {
 
 input[type="button"] {
     padding: .5rem;
-    background-color: #5c5b5b;
+    background-color: #444;
     color: white;
     border: none;
     border-radius: 5px;
@@ -211,7 +211,7 @@ footer {
 
 
 #section1 {
-    background-color: rgba(241, 236, 183, 0.5);
+    background-color: rgb(225, 250, 225, .5);
 }
 
 #section2 {
@@ -229,9 +229,9 @@ footer {
 
 #sortBy {
     appearance: none;
-    /* display: flex; */
+    display: flex;
     padding: .5rem;
-    background-color: rgb(40, 40, 230);
+    background-color: rgb(112, 231, 138);
     color: white;
     font-weight: 700;
     margin: 1rem auto;
@@ -250,16 +250,15 @@ footer {
 
 #sortBy2 {
     appearance: none;
-    /* display: flex; */
+    display: flex;
     padding: .5rem;
-    background-color: rgb(40, 40, 230);
-    color: white;
+    background-color: #eee;
+    color: #444;
     font-weight: 700;
     margin: 1rem auto;
     width: 200px;
     border: 1px solid rgba(0, 0, 0, .2);
     text-align: center;
-    border-radius: 10%;
 }
 
 #temples {
@@ -320,20 +319,12 @@ footer {
         max-width: fit-content;
     }
 
-    #quiz {
+    #Quiz {
         display: grid;
         grid-template-columns: 6fr 0fr;
         grid-gap: 5px;
         margin: 0 auto;
         max-width: 950px;
-    }
-
-    #filters {
-        display: grid;
-        grid-template-columns: 4fr 2fr;
-        grid-gap: 2px;
-        margin: 0 auto;
-        max-width: 450px;
     }
 
 }
