@@ -52,7 +52,7 @@ myProfile.placesLived.push(
 );
 myProfile.placesLived.push(
     {
-        place: "Pretoria, Gauteng, South Africa", 
+        place: "Pretoria, Gauteng", 
         length: "9 years"
     }
 );

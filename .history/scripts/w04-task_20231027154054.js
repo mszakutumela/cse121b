@@ -38,7 +38,7 @@ let myProfile = {
 // and for each of these properties, add appropriate values as strings.
 myProfile.placesLived.push(
     {
-        place: "Newcastle, KwaZulu Natal, South Africa", 
+        place: "Newcastle, KwaZulu Natal, South ", 
         length: "10 years"
     }
 );
@@ -46,13 +46,13 @@ myProfile.placesLived.push(
 // for each place you have lived.
 myProfile.placesLived.push(
     {
-        place: "Stellenbosch, Western Cape, South Africa ", 
+        place: "Stellenbosch, Western Cape", 
         length: "9 years"
     }
 );
 myProfile.placesLived.push(
     {
-        place: "Pretoria, Gauteng, South Africa", 
+        place: "Pretoria, Gauteng", 
         length: "9 years"
     }
 );

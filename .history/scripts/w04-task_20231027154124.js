@@ -46,13 +46,13 @@ myProfile.placesLived.push(
 // for each place you have lived.
 myProfile.placesLived.push(
     {
-        place: "Stellenbosch, Western Cape, South Africa ", 
+        place: "Stellenbosch, Western Cape,  ", 
         length: "9 years"
     }
 );
 myProfile.placesLived.push(
     {
-        place: "Pretoria, Gauteng, South Africa", 
+        place: "Pretoria, Gauteng", 
         length: "9 years"
     }
 );
