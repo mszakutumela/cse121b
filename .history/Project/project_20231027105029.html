@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSE 121b | Project: Programming Tasks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <nav>
+    <ul id="menu">
+      <li><a id="toggleMenu">&equiv;</a></li>
+      <!-- <li><a href="index.html">Home</a></li>
+      <li><a href="w01-task.html">W1 Task</a></li>
+      <li><a href="w03-task.html">W3 Task</a></li>
+      <li><a href="w04-task.html">W4 Task</a></li>
+      <li><a href="w05-task.html">W5 Task</a></li> -->
+      <li><a href="project.html" class="active">Project</a></li>
+    </ul>
+  </nav>
+  <main id="gridly">
+    <h1>Temples of the Church of Jesus Christ of Latter-Day Saints in Africa</h1>
+    <h2>How well do you know the Temples in Africa?</h2>
+
+    <main id="quiz">
+      <section id="section1">
+          <article>
+              <h3>Short Quiz Questions</h3>
+              <div>
+                  <label for="add1">1. How many Temples are operational in Africa?</label>
+                  <input type="text" id="add1" name="add1">
+              </div>
+              <div>
+                  <label for="add2">2. How many Temples are under construction in Africa?</label>
+                  <input type="text" id="add2" name="add2">
+              </div>
+              <div>
+                <label for="add3">3. How many Temple have been announced in Africa?</label>
+                <input type="text" id="add3" name="add3">
+            </div>
+              <div>
+                  <input type="button" id="addTemples" value="Add Temples in Africa">
+              </div>
+              <div>
+                  <label for="sum">Total number of Temples in Africa:</label>
+                  <input type="text" id="sum" name="sum" disabled>
+              </div>
+
+              <div >
+                <label for="answer">The number of operational Temples in Africa is:</label>
+            </div>
+
+            <div class="info">Name: <span id="name"></span></div>
+
+            <div>
+              <label for="answer">The number of Temples are under construction in Africa is:</label>
+            </div>
+            <div>
+              <label for="answer">The number of Temples announced in Africa is:</label>
+            </div>
+            <div>
+              <label for="answer">The total number of all Temples in Africa is:</label>
+            </div>
+          </article>
+      </section>
+    </main>
+
+    <main id="filters">
+      <select id="sortBy" title="Choose a temple filter.">
+        <option value="" disabled selected>Filter Temples</option>
+        <option value="operate">Operational</option>
+        <option value="construct">Under Construction</option>
+        <option value="named">Announced</option>
+        <option value="all">All Temples in Africa</option>
+      </select>
+      
+      <select id="sortBy2" title="Choose an operational temple filter.">
+        <option value="" disabled selected>Filter Operational Temples</option>
+        <option value="aba">Aba Nigeria</option>
+        <option value="accra">Accra Ghanal</option>
+        <option value="durban">Durban South Africa</option>
+        <option value="johannesburg">Johannesburg South Africa</option>
+        <option value="kinshasa">Kinshasa DR-Congo</option>
+        <option value="all">All Operational Temples</option>
+      </select>
+    </main>
+
+    <div id="temples">
+    </div>
+  </main>
+
+
+  <footer>
+    &copy;<span id="year"></span> | Week 05 - Fetching Temple Data | CSE 121b
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+  <script src="scripts/project.js"></script>
+</body>
+
+</html>
